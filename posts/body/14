@@ -1,0 +1,5 @@
+
+<p>lite2do-irssi 1.1.3 has been released! This release introduces
+possibility to <code>list</code> task with selected ID only, and addition
+of <code>groups</code> command to display groups in the task list along
+with number of tasks that belong to each of them.</p>

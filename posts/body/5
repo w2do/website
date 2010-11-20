@@ -1,0 +1,33 @@
+
+<p>lite2do 1.1.0 has been released, introducing various usability
+improvements and a few bugfixes. See the complete list of changes
+below.</p>
+
+<!-- break -->
+
+<h3><a name="improvements"></a>Usability Improvements</h3>
+
+<ul>
+  <li>Wrong command-line option no longer terminates the script and an
+    appropriate warning message is displayed instead.</li>
+  <li>Implemented <code>--quiet</code> and <code>--verbose</code>
+    options.</li>
+  <li>Modified coloured output settings and implemented
+    <code>--plain</code> option as a counterpart to
+    <code>--colour</code>.</li>
+  <li>Made it possible to change group the task belongs to.</li>
+  <li>Added short variants of frequently used commands.</li>
+  <li>Added <code>README</code> file with usage information for those who
+    are unable or lazy to read the manual page.</li>
+</ul>
+
+<h3><a name="bugfixes"></a>Bug Fixes</h3>
+
+<ul>
+  <li>Fixed command parser: <code>add</code> command no longer accepts
+    group name without any argument.</li>
+  <li>Made all functions return proper values as a confirmation of their
+    successful performance; for the future maintainability.</li>
+  <li>Made all functions report missing arguments; for easier
+    debugging.</li>
+</ul>

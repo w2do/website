@@ -1,0 +1,43 @@
+
+<p><strong>w2do</strong> is a simple to use yet efficient command-line todo
+manager written in Perl.</p>
+
+<h3>Features</h3>
+
+<ul>
+  <li>Well-arranged, fully filterable, plain text or coloured tabular
+    output.</li>
+  <li>Support for group, due date and priority categories.</li>
+  <li>Capable of managing multiple todo lists.</li>
+  <li>Detailed statistics with visual progress representation.</li>
+  <li>Completely command driven and therefore suitable for usage in
+    scripts.</li>
+  <li>Export to HTML 4.01 Strict via w2html utility.</li>
+  <li>Export to plain text via w2text utility.</li>
+</ul>
+
+<h3>Additional Tools</h3>
+
+<ul>
+  <li><strong>lite2do</strong> is a lightweight command-line todo manager
+    written in Perl. Being based on w2do and fully compatible with its save
+    file format, it tries to provide much simpler alternative for those who
+    do not appreciate nor require w2do's complexity.</li>
+  <li><strong>lite2do-irssi</strong> is a lightweight todo manager for
+    <a href="http://www.irssi.org/" title="Irssi, the client of the future">Irssi</a>.
+    Being based on w2do and fully compatible with its save file format, it
+    tries to provide a simple alternative for IRC network capable of
+    collaborative task management.</li>
+</ul>
+
+<h3>Licence</h3>
+
+<p>w2do is free software: you can redistribute it and/or modify it
+under the terms of the <a href="http://www.gnu.org/licenses/gpl.html">GNU
+General Public License</a> as published by the <a href="http://www.fsf.org/">Free
+Software Foundation</a>, version 3 of the License.</p>
+
+<p>This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE. See the <a href="http://www.gnu.org/licenses/gpl.html">GNU
+General Public License</a> for more details.</p>

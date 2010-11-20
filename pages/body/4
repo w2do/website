@@ -1,0 +1,33 @@
+
+<h3><a name="sources"></a>Source Code</h3>
+
+<ul>
+  <li><a href="http://w2do.googlecode.com/files/w2do-2.3.1.tar.gz" title="a simple text-based todo manager, version 2.3.1">w2do-2.3.1.tar.gz</a> (41.7 kB)</li>
+  <li><a href="http://w2do.googlecode.com/files/lite2do-1.1.1.tar.gz" title="a lightweight command-line todo manager, version 1.1.1">lite2do-1.1.1.tar.gz</a> (28.7 kB)</li>
+  <li><a href="http://w2do.googlecode.com/files/lite2do-irssi-1.1.3.tar.gz" title="a lightweight todo manager for Irssi, version 1.1.3">lite2do-irssi-1.1.3.tar.gz</a> (28.4 kB)</li>
+</ul>
+
+<h3><a name="packages"></a>Linux Packages</h3>
+
+<ul>
+  <li><a href="http://packages.debian.org/squeeze/w2do" title="Debian Squeeze package">w2do 2.2.3</a> (Debian Testing)</li>
+  <li><a href="http://packages.ubuntu.com/karmic/w2do" title="Ubuntu Karmic Koala package">w2do 2.2.2</a> (Ubuntu 9.10 Karmic Koala)</li>
+  <li><a href="http://aur.archlinux.org/packages.php?ID=25046" title="Arch Linux AUR package">w2do 2.2.3</a> (Arch Linux)</li>
+  <li><a href="http://zur.zenwalk.org/view/package/name/w2do" title="Zenwalk ZUR package">w2do 2.1.1</a> (Zenwalk/Slackware)</li>
+</ul>
+
+<h3><a name="development"></a>Development</h3>
+
+<p>As a version control system for its source code, w2do uses <a href="http://git-scm.com/" title="the fast version control system">Git</a> with a public repositories located on <a href="http://gitorious.org/" title="free open source project hosting">Gitorious</a>. To download the latest development version of any of the utilities, you can either use one of the following commands:</p>
+
+<pre>git clone git://gitorious.org/w2do/mainline.git w2do
+git clone git://gitorious.org/w2do/lite2do.git lite2do
+git clone git://gitorious.org/w2do/lite2do-irssi.git lite2do-irssi</pre>
+
+<p>or you can explore the repository tree directly in your browser:</p>
+
+<ul>
+  <li><a href="http://gitorious.org/w2do/mainline/trees/master">w2do repository tree</a></li>
+  <li><a href="http://gitorious.org/w2do/lite2do/trees/master">lite2do repository tree</a></li>
+  <li><a href="http://gitorious.org/w2do/lite2do-irssi/trees/master">lite2do-irssi repository tree</a></li>
+</ul>

@@ -1,0 +1,26 @@
+[blog]
+  lang = en_GB
+  posts = 10
+  style = vectorlover.css
+  subtitle = a simple text-based todo manager
+  theme = vectorlover.html
+  title = w2do
+[color]
+  list = true
+  log = true
+[core]
+  doctype = html
+  editor = gvim -f
+  encoding = UTF-8
+  extension = html
+[feed]
+  baseurl = http://w2do.blackened.cz
+  fullposts = false
+  posts = 10
+[post]
+  author = top
+  date = top
+  tags = top
+[user]
+  email = jhradilek@gmail.com
+  name = Jaromír Hradílek

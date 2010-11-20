@@ -1,0 +1,24 @@
+
+<p>After almost a year on <a href="http://subversion.tigris.org/"
+title="Subversion">SVN</a> and despite the fact that it served me perfectly
+well and there is nothing I can say against it, I have recently decided it
+is time to move w2do's source code repository as one of the last of my
+projects to <a href="http://git-scm.com/" title="Git, the fast version
+control system">Git</a> instead. I guess I am simply getting too used to
+it.</p>
+
+<!-- break -->
+
+<p>Like the rest of my projects, the w2do's public repository is now
+located on <a href="http://gitorious.org/projects/w2do/" title="free open
+source project hosting">Gitorious</a>. To obtain a working copy, use
+following command:</p>
+
+<pre>git clone git://gitorious.org/w2do/mainline.git w2do</pre>
+
+<p>To keep it up-to-date, anytime later simply type:</p>
+
+<pre>git pull</pre>
+
+<p>I apologise for the inconvenience, but hopefully, it will be worth
+it.</p>

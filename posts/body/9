@@ -1,0 +1,4 @@
+
+<p>w2do 2.2.1 has been released! This release fixes the bug in HTML
+generating utility and slightly improves its usability, making it possible
+to preserve existing style sheet in case it contains local changes.</p>

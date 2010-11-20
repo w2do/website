@@ -1,0 +1,6 @@
+
+<p>lite2do-irssi 1.0.0, a lightweight todo manager for <a
+href="http://irssi.org/" title="Irssi, the client of the future">Irssi</a>,
+has been released! Besides several cosmetic changes, it now implements much
+complete command set, ban list support, improved behaviour configuration,
+and, last but not least, significantly extended documentation.</p>

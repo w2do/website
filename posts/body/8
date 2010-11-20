@@ -1,0 +1,43 @@
+
+<p>w2do 2.2.0 has been released! Among several usability improvements, few
+bug fixes and general revision of the code itself, the most significant
+change is a notable rewrite of associated HTML exporter with introduction
+of new default design. See the complete list of changes below.</p>
+
+<!-- break -->
+
+<h3><a name="improvements"></a>Usability Improvements</h3>
+
+<ul>
+  <li>Wrong command-line option no longer terminates any of the utilities.
+    I believe an appropriate warning message is sufficient enough and
+    definitely not so annoying.</li>
+  <li>Wrong group name is now properly reported, so that user knows, what
+    he did wrong.</li>
+  <li>Added <code>--shallow</code> option to w2text in case a single list
+    with no group names is required.</li>
+  <li>Made w2html create separate files for HTML and CSS. The style sheet
+    can still be embedded to the page itself using <code>--inline</code>
+    option.</li>
+  <li>Added <code>--bare</code> option to w2html to make it easier to
+    include exported data to another page.</li>
+  <li>w2html no longer supports two different themes and a new one was
+    designed to take their place. Customisation is newly possible by
+    replacing the style sheet.</li>
+</ul>
+
+<h3><a name="bugfixes"></a>Bug Fixes</h3>
+
+<ul>
+  <li>None of the utilities accept wrong group name any longer: it was
+    possible to specify a group with colon in it, which used to have some
+    nasty consequences like corrupted save file and/or even unexpected
+    crash.</li>
+  <li>Added <code>--encoding</code> option to w2html to prevent possible
+    browser confusion; when omitted, UTF-8 is used by default as a
+    reasonable choice.</li>
+  <li>Made w2html properly escape reserved characters to avoid smuggling
+    HTML entities inside the tasks.</li>
+  <li>Fixed w2html output, so that empty task list no longer results in
+    empty file.</li>
+</ul>

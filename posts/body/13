@@ -1,0 +1,32 @@
+
+<p>lite2do 1.1.1 has been released! This release introduces improved
+<code>help</code> and <code>list</code> commands as well as the addition of
+<code>groups</code> command to display groups in the task list. See the
+complete list of changes below.</p>
+
+<!-- break -->
+
+<h3>Features</h3>
+
+<ul>
+  <li>Heavily improved behaviour of <code>help</code> command. When the
+    command name is supplied (e.g. <code>lite2do help list</code>),
+    further information on its usage are displayed.</li>
+  <li>Extended capabilities of <code>list</code>, making it possible to
+    display the task with selected ID only.</li>
+  <li>Added <code>groups</code> (or <code>gr</code> for short) command to
+    display list of groups in the task list along with number of tasks that
+    belong to each of them.</li>
+  <li>Added <code>ud</code> as a short variant of <code>undo</code>
+    command.</li>
+</ul>
+
+<h3>Bug Fixes</h3>
+
+<ul>
+  <li>It is no longer possible to successfully save an invalid group name,
+    which usually resulted in corrupted save file and even unexpected
+    crashes.</li>
+  <li>Invalid colour is no longer accepted blindly and proper error message
+    is displayed.</li>
+</ul>
